@@ -1,0 +1,53 @@
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.input {
+    color: #000000;
+    font-size: 18px;
+    text-transform: normal;
+  }
+  
+  .UserLabel {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+   .input:focus {
+        outline: none;
+        border-color: #4f005f;
+        box-shadow: none;
+  }
+  .userButton{
+    position: relative;
+    background: #4f005f!important;
+    color: #FFFFFF!important;
+    top: 0;
+    transition: opacity 0.2s ease-in, top 0.2s ease-in;
+    -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  }
+
+  .userButton:hover,
+  .userButton:active {
+    background: #FFFFFF!important;
+    border-color: #741188;
+    top: -4px;
+    opacity: 0.9;
+    color: #741188!important;
+}
+.userButton:focus {
+  outline: none;
+  box-shadow: none;
+}
